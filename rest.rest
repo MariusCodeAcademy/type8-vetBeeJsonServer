@@ -1,0 +1,28 @@
+GET http://localhost:8001/pets
+###
+POST http://localhost:8001/pets
+Content-Type:  application/json
+
+{
+   "name": "Mouse",
+   "dob": "2017-01-01",
+   "client_email": "test@example.com",
+   "archived": false
+   }
+###
+PATCH  http://localhost:8001/pets/107
+Content-Type:  application/json
+
+{
+  "name": "Mike" 
+}
+###
+
+POST  http://localhost:8001/prescriptions
+Content-Type:  application/json
+
+{
+    "pet_id": 152,
+    "comment": "for the best",
+    "medication_id": 1
+  }

@@ -62,6 +62,13 @@
       "dob": 1483228800000,
       "client_email": "test@example.com",
       "archived": 0
+    },
+    {
+      "name": "Mike",
+      "dob": "2017-01-01",
+      "client_email": "test@example.com",
+      "archived": false,
+      "id": 107
     }
   ],
   "meds": [
@@ -112,9 +119,16 @@
   ],
   "prescriptions": [
     {
+      "id": 1,
       "pet_id": 152,
       "comment": "for the best",
       "medication_id": 1
+    },
+    {
+      "pet_id": 152,
+      "comment": "for the best",
+      "medication_id": 1,
+      "id": 2
     }
   ]
 }
