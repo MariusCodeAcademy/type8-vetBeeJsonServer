@@ -1,0 +1,15 @@
+{
+  "name": "vetbeejsonserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json --watch --port 8001"
+  },
+  "keywords": [],
+  "author": "Marius K.",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
