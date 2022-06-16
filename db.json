@@ -58,7 +58,7 @@
     },
     {
       "id": 106,
-      "name": "Mouse",
+      "name": "James Bond",
       "dob": 1483228800000,
       "client_email": "test@example.com",
       "archived": 0
@@ -115,6 +115,12 @@
       "description": "broken leg",
       "status": "healed 1",
       "id": 2
+    },
+    {
+      "pet_id": 98,
+      "description": "Hair spray",
+      "status": "in progress",
+      "id": 3
     }
   ],
   "prescriptions": [

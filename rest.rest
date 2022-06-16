@@ -1,5 +1,16 @@
 GET http://localhost:8001/pets
 ###
+GET http://localhost:8001/logs?pet_id=98
+###
+POST http://localhost:8001/logs
+Content-Type:  application/json
+
+{
+ "pet_id": 98,
+ "description": "Hair spray",
+ "status": "in progress"
+}
+###
 POST http://localhost:8001/pets
 Content-Type:  application/json
 
@@ -10,11 +21,11 @@ Content-Type:  application/json
    "archived": false
    }
 ###
-PATCH  http://localhost:8001/pets/107
+PATCH  http://localhost:8001/pets/106
 Content-Type:  application/json
 
 {
-  "name": "Mike" 
+  "name": "James Bond" 
 }
 ###
 
